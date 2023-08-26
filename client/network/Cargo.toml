@@ -48,6 +48,7 @@ sp-blockchain = { version = "4.0.0-dev", path = "../../primitives/blockchain" }
 sp-core = { version = "21.0.0", path = "../../primitives/core" }
 sp-runtime = { version = "24.0.0", path = "../../primitives/runtime" }
 wasm-timer = "0.2"
+libp2p-test-handshake = { version = "0.1.0", git = "https://github.com/cdamian/libp2p-test-handshake.git", branch = "main" }
 
 [dev-dependencies]
 assert_matches = "1.3"
